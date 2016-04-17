@@ -6,5 +6,8 @@ Meteor.methods({
         return Messages.insert({
             message: message
         })
+    },
+    deleteMessage(id) {
+        return Messages.remove(id);
     }
 })
