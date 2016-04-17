@@ -1,4 +1,4 @@
-import Meteor from 'meteor/meteor';
+import { Meteor } from 'meteor/meteor';
 import Messages from '../messages';
 
 Meteor.publish('allMessages', () => {
